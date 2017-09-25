@@ -12,7 +12,7 @@ Printing various colors::
     from click_tools import crayons
 
     click.echo(
-        '{red}{blue}{gren}'.format(
+        '{red}{blue}{green}'.format(
             red=crayon.red('red'),
             blue=crayon.blue('blue')
             green=crayon.green('green')
