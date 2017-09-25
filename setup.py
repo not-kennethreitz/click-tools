@@ -20,7 +20,7 @@ AUTHOR = 'Kenneth Reitz'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
-    'appdirs'
+    'appdirs', 'crayons'
 ]
 
 # The rest you shouldn't have to touch too much :)

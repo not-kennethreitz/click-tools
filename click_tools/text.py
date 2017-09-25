@@ -6,7 +6,7 @@ from contextlib import contextmanager
 
 from .formatters import max_width, min_width
 from .cols import columns
-from ..utils import tsplit
+from .utils import tsplit
 
 
 __all__ = (
