@@ -12,15 +12,15 @@ Printing various colors::
     from click_tools import crayons
 
     click.echo(
-        '{red}{blue}{gren}'.format(
-            red=crayon.red('red'),
-            blue=crayon.blue('blue')
-            green=crayon.green('green')
+        '{red}{blue}{green}'.format(
+            red=crayons.red('red'),
+            blue=crayons.blue('blue'),
+            green=crayons.green('green')
         )
     )
 
 
-Identation::
+Indentation::
 
     from click_tools import puts, indent
 
